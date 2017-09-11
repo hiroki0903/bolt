@@ -1,0 +1,302 @@
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fa-bolt {
+  color: gray;
+}
+
+.head {
+  padding: 15px 0;
+}
+
+.head-btn-s {
+  border:1px solid #ddd;
+  border-radius: 5px;
+  float: right;
+  padding: 5px 5px;
+  display: none;
+}
+
+.btn-s {
+  border:1px solid #ddd;
+  width: 25px;
+  margin: 5px;
+  display: block;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #ddd;
+}
+
+.head-nav {
+  float: right;
+  padding: 15px 0;
+}
+
+.head-btn {
+  color: #fff;
+  background-color: #74cfae;
+  font-size: 12px;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+.cf::after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size:0;
+  clear: both;
+  visibility:hidden;
+}
+
+.main-top {
+  background-color: #f2f2f2;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  padding: 250px 0 20px 0;
+  text-align: center;
+}
+.main-top-p {
+  text-align: center;
+  font-size: 30px;
+  color: #c0c0c0;
+  padding-bottom: 250px;
+}
+
+.main-phone {
+  background-color: #74cfae;
+}
+
+.main-phone-box {
+}
+
+.phone {
+  padding-top: 50px;
+  float: left;
+  margin: 0 110px;
+}
+
+.phone-box {
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 70px 0 20px 0;
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+.phone-p {
+  font-size: 20px;
+  line-height: 150%;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  padding: 60px 0 40px 0;
+  font-family: 'Raleway';
+}
+
+.work {
+  background-color: #f2f2f2;
+}
+
+.work-six {
+  text-align: center;
+}
+
+.work-img {
+  margin: 0 100px 80px 0;
+  opacity: 0.7;
+  display: inline-block;
+}
+
+.work-img:nth-child(3),
+.work-img:last-child {
+  margin-right: 0;
+}
+
+.work-p {
+  font-size: 20px;
+  padding: 10px 0 70px 0;
+  width: 55%;
+  text-align: center;
+  float: left;
+  margin-left: 110px;
+  line-height: 120%;
+}
+
+.work-btn {
+  color: #fff;
+  background-color: #74cfae;
+  font-size: 12px;
+  padding: 14px 20px;
+  text-decoration: none;
+  float: right;
+  margin: 20px 240px 0 0;
+}
+
+h4 {
+  font-family: 'Raleway';
+  font-size: 24px;
+  text-align: center;
+  padding: 70px 0 40px 0;
+  color: #fff;
+}
+
+.skills {
+  background-color: #4e4e4e;
+}
+
+.skills-main {
+  text-align: center;
+}
+
+.skills-img {
+  margin-right: 180px;
+  display: inline-block;
+}
+
+.skills-img:last-child {
+  margin-right: 0;
+}
+
+.skills-p {
+  float: none;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0 100px 0;
+  font-size: 16px;
+}
+
+.main-fa {
+  background-color: #f2f2f2;
+}
+
+.box-fa {
+  width: 185px;
+  margin: 200px 0;
+  padding: 35px 0;
+  display: inline-block;
+}
+
+.box-fa-top {
+  text-align: center;
+}
+
+.fa-facebook, .fa-twitter, .fa-dribbble, .fa-envelope {
+  color: #74cfae;
+}
+
+.facebook:hover, .twitter:hover, .dribbble:hover, .envelope:hover {
+  background-color: #fff;
+}
+
+.foot {
+  background-color: #74cfae;
+}
+
+.foot-box {
+  float: right;
+  padding: 20px 0 25px 0;
+}
+
+.foot-p {
+  color: #fff;
+  float: left;
+}
+
+.fa-heart {
+  color: #fff;
+  float: left;
+}
+
+@media screen and (max-width: 1199px) {
+  .head {
+    padding: 15px 20px;
+  }
+
+  .main-phone-box {
+    display: grid;
+  }
+
+  .phone {
+    float: none;
+    margin: auto;
+  }
+
+  h2 {
+    padding: 20px 0 35px 0;
+  }
+
+  .phone-p {
+    padding-bottom: 25px;
+  }
+
+  .work-img {
+    margin: auto;
+    display: block;
+    font-size: 0;
+  }
+
+  .work-img:nth-child(3),
+  .work-img:last-child {
+    margin-bottom: 80px;
+  }
+
+  .skills-img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .work-p {
+    padding-bottom: 40px;
+    float: none;
+    width: auto;
+    margin: auto;
+  }
+
+  .work-btn {
+    float: none;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+
+  .foot-box {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .head-nav {
+    display: none;
+  }
+
+  .head-btn-s {
+    display: block;
+  }
+
+  .box-fa-top {
+    padding: 50px 15px;
+  }
+
+  .box-fa {
+    width: 100%;
+    margin: auto;
+  }
+}
